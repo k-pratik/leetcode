@@ -3,6 +3,10 @@ public class PowerOfThree {
     public static void main(String[] args) {
         int n = 15;
         System.out.println(powerOfThree(n));
+        
+        //Max value of three power
+        int maxThree = 1162261467;
+        System.out.println(maxThree % n == 0);
     }
 
     public static boolean powerOfThree(int n){
